@@ -12,7 +12,7 @@ export const Footer = () => {
                     <Divider sx={{ my: 1, backgroundColor: 'white' }} />
 
                     <Box display='flex' justifyContent='center' sx={{ mt: 3 }} >
-                        <Typography component='h5'><CopyrightIcon sx={{ fontSize: 14 }} />  all rights reserved. Hator</Typography>
+                        <Typography component='h5'><CopyrightIcon sx={{ fontSize: 14 }} />  all rights reserved. Hator Clothing</Typography>
                     </Box>
                     <Box display='flex' justifyContent='center' sx={{ mt: 3, mb: 2 }} >
                         <CodeIcon sx={{ fontSize: 20, mr: 1 }} />
