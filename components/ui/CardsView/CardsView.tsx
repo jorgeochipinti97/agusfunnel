@@ -19,7 +19,7 @@ const CardsView = () => {
                     <ContentMediaCard title='Solicita tu catálogo' icon={<WhatsAppIcon sx={{ fontSize: 50, color: '#846267', textShadow: '1px 1px 1px #bf4b4b' }} />} url='https://walink.co/cf1540' button='Consultanos!' />
                 </div>
                 <div data-aos="zoom-in-left">
-                    <ContentMediaCard title='TikTok' icon={<MusicNoteIcon sx={{ fontSize: 45, color: '#846267', textShadow: '1px 1px 1px #bf4b4b' }} />} url='www.tiktok.com/@hatorclothing' button='Seguinos!' />
+                    <ContentMediaCard title='TikTok' icon={<MusicNoteIcon sx={{ fontSize: 45, color: '#846267', textShadow: '1px 1px 1px #bf4b4b' }} />} url='https://www.tiktok.com/@hatorclothing' button='Seguinos!' />
                 </div>
                 <Box sx={{ display: asPath == '/' ? 'none' : '' }}>
                     <div data-aos="zoom-in-right">
