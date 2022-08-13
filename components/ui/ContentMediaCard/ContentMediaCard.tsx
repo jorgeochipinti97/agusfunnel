@@ -25,7 +25,7 @@ export const ContentMediaCard: FC<Props> = ({ title, icon, url, button }) => {
             <Card sx={{ minWidth: 275, color: '#C37D92', m: 5, backgroundColor: 'black', border: '1px solid white', maxWidth: 500 }}>
                 <CardContent>
                     <Box display='flex' justifyContent='center'>
-                        <Box sx={title == 'TikTok' ? { border: '4px solid #6B4F53', borderRadius: '9px', backgroundColor: '#846267' } : {}}>
+                        <Box sx={title == 'TikTok' ? { border: '4px solid #6B4F53', borderRadius: '9px', backgroundColor: 'black' } : {}}>
                             {icon}
                         </Box>
                     </Box>
