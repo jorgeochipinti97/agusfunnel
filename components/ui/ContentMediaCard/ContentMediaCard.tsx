@@ -38,15 +38,18 @@ export const ContentMediaCard: FC<Props> = ({ title, icon, url, button }) => {
                 </CardContent>
                 <Box display='flex' justifyContent='center'>
                     <CardActions sx={{ position: 'relative', bottom: title == '' ? 20 : 0 }}>
-                        <Link sx={{ textDecoration: 'none' }}>
-                            <Button
-                                onClick={() =>  router.push(url) }
-                                style={styles} size="large"  variant='text' sx={{ backgroundColor: '#846267', color: 'white', textShadow: '1px 1px 1px rgba(0, 0, 0, 0.31)' }} >
-                                <Typography variant='button' >
-                                    {button}
-                                </Typography>
-                            </Button>
-                        </Link>
+                        <NextLink href={url} passHref>
+
+                            <Link sx={{ textDecoration: 'none' }}>
+                                <Button
+                                 
+                                    style={styles} size="large" variant='text' sx={{ backgroundColor: '#846267', color: 'white', textShadow: '1px 1px 1px rgba(0, 0, 0, 0.31)' }} >
+                                    <Typography variant='button' >
+                                        {button}
+                                    </Typography>
+                                </Button>
+                            </Link>
+                        </NextLink>
                     </CardActions>
                 </Box>
             </Card>
