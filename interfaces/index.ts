@@ -1,3 +1,4 @@
-export * from './IProduct'
-export * from './ICart'
-export * from './IUser'
+export * from './product'
+export * from './cart'
+export * from './user'
+export * from './orders'
