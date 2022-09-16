@@ -10,12 +10,16 @@ function MyApp({ Component, pageProps }: AppProps) {
       easing: "ease-out-cubic",
       once: true,
       offset: 50,
-      delay:400,
-      duration:2000
+      delay: 400,
+      duration: 2000
     });
   }, []);
 
-  return <Component {...pageProps} />
+  return (
+    <>
+      <Component {...pageProps} />
+    </>
+  )
 }
 
 export default MyApp
